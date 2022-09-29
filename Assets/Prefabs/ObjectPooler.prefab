@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8034208787064803069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8034208787064803059}
+  - component: {fileID: 8034208787064803068}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8034208787064803059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034208787064803069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 689.9292, y: 996.46844, z: -499.45068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8034208787064803068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034208787064803069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b03bc9644e234c419ea582c4d40d8db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Meat
+    prefab: {fileID: 8088829824895913256, guid: 06808055b8e27024791c2583cf276cee, type: 3}
+    size: 5
+  - tag: Chicken
+    prefab: {fileID: 6048391558809898828, guid: 23fdca005914fa5468fec3b53ed9d5c4, type: 3}
+    size: 5
+  - tag: Bean
+    prefab: {fileID: 2084311766856279682, guid: 664496874ffe4714c804bc8e667beb34, type: 3}
+    size: 5
+  - tag: Cabbage
+    prefab: {fileID: 4540332990142369665, guid: 83894dc5bd2ef0043a63c9abddec3b2a, type: 3}
+    size: 5
+  - tag: Corn
+    prefab: {fileID: 1830735449159228173, guid: bac419ae70c6abe4aa4703b9ea5bab7c, type: 3}
+    size: 5
+  - tag: Burrito
+    prefab: {fileID: 2601931573329084161, guid: 2186badf2d0828e46b9fac1af0db2344, type: 3}
+    size: 5
+  - tag: Costumer
+    prefab: {fileID: 845086031492434712, guid: 8c9eebdd8e35d8145b6a5e578db848e5, type: 3}
+    size: 5
